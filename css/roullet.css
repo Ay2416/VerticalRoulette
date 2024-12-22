@@ -1,0 +1,23 @@
+/* 背景の色を変えたい場合は「green」の部分を編集してください。 */
+body {
+    background-color: green;
+}
+
+/* 以下は変更不可 */
+
+/* ルーレット本体 */
+.roulette_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roulette {
+    display: none;
+}
+
+/* 最初に表示される部分 */
+#comment,
+#file_upload {
+    color: white;
+}
